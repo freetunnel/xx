@@ -6,7 +6,7 @@ biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 ###########- COLOR CODE -##############
 echo -e " [INFO] Downloading File"
 wget -q -O /usr/bin/add-ip-bot "${repo}menu/add-ip-bot.sh" && chmod +x /usr/bin/add-ip-bot
-wget -q -O /usr/bin/menu "${repo}/menu.sh" && chmod +x /usr/bin/menu
+wget -q -O /usr/bin/menu "${repo2}/menu.sh" && chmod +x /usr/bin/menu
 #wget -q -O /usr/bin/m-trgo "${repo}menu/m-trgo.sh" && chmod +x /usr/bin/m-trgo
 wget -q -O /usr/bin/restore "${repo}menu/restore.sh" && chmod +x /usr/bin/restore
 wget -q -O /usr/bin/backup "${repo}menu/backup.sh" && chmod +x /usr/bin/backup
